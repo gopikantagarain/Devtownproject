@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevTown Login</title>
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+        body {
+            height: 100vh;
+        }
+        
+        div {
+            width: 100px;
+            height: 100px;
+            background: orange;
+            transition: 0.5s ease;
+            position: absolute;
+            animation-duration: 5s;
+            animation-name: translate;
+            animation-timing-function: ease;
+            animation-fill-mode: forwards;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        
+        @keyframes translate {
+            0% {
+                transform: translate(0px, 0px);
+            }
+            25% {
+                transform: translate(500px, 0px);
+            }
+            50% {
+                transform: translate(500px, 500px);
+            }
+            75% {
+                transform: translate(0px, 500px);
+            }
+            100% {
+                transform: translate(0px, 0px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+
+</body>
+
+</html>
